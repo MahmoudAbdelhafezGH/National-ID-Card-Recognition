@@ -1,4 +1,3 @@
-# Still In Development
 # National ID Card Recognition System
 
 ## Project Overview
