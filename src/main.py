@@ -8,7 +8,6 @@ from models import model
 def main():
     # Load the input image 
     image = cv2.imread('../data/raw/ausweis_deutsch.jpg') 
-
     # Preprocessing the data. Convert to gray and apply bilateral filter
     gray_image = preprocess.convert_to_gray(image)
     blurred = preprocess.filter_image(gray_image)
